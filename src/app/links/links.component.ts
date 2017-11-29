@@ -8,8 +8,8 @@ import { Link } from '../link';
 })
 export class LinksComponent implements OnInit {
   link: Link = {
-	id: 'http://resume.akhilcjacob.com';
-	name: 'resume';
+	id: 'http://resume.akhilcjacob.com',
+	name: 'resume'
   }
   constructor() { }
 
