@@ -1,0 +1,7 @@
+x<h2>{{ link.name | uppercase }} Details</h2>
+<div><span>id: </span>{{link.id}}</div>
+<div>
+    <label>name:
+      <input [(ngModel)]="link.name" placeholder="name">
+    </label>
+</div>
