@@ -13,3 +13,10 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+var app = new Vue({
+	el: '#app-2',
+	data:{
+		message: "Test"
+	}
+})
